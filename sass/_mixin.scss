@@ -1,0 +1,11 @@
+@mixin padding_btn($tb, $lr) {
+    padding: $tb $lr;
+}
+
+@mixin commonHeading($pb, $pplr) {
+    @extend %common-heading;
+    padding-bottom: $pb;
+    p{
+        padding: 0px $pplr;
+    }
+}

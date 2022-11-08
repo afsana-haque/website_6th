@@ -1,0 +1,131 @@
+@import "_variable.scss";
+@import "_mixin.scss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+ol,
+li,
+img,
+input,
+form,
+label,
+span,
+button,
+.navbar,
+nav,
+div,
+.navbar-brand,
+.btn {
+    padding: 0;
+    margin: 0;
+}
+
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: $primary_color;
+}
+
+h4 {
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #363636;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #707070;
+}
+
+a {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #707070;
+}
+
+.py_100 {
+    padding: 100px 0px;
+}
+
+.py_90 {
+    padding: 90px 0px;
+}
+
+.pt_100 {
+    padding-top: 100px;
+}
+
+.pb_30 {
+    padding-bottom: 30px;
+}
+
+.mb_30 {
+    margin-bottom: 30px;
+}
+
+.mt_30 {
+    margin-top: 30px;
+}
+
+
+// COMMON HEADING
+.common_heading{
+    @include commonHeading(30px, 330px);
+}
